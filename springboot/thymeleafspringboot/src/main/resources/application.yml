@@ -1,0 +1,13 @@
+server:
+  port: 9090
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
